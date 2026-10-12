@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "xmrpool"
+version = "0.1.0"
+description = "Read the Monero tx pool from any monerod, including restricted public nodes (0.18.5.3+ refuse /get_transaction_pool)"
+readme = "README.md"
+license = { text = "MIT" }
+requires-python = ">=3.9"
+authors = [{ name = "apeir", email = "online@apeir.dk" }]
+keywords = ["monero", "monerod", "rpc", "mempool", "txpool"]
+
+[project.urls]
+Homepage = "https://github.com/apeirs/xmrpool"
